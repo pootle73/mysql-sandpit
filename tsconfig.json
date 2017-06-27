@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "commonjs",
+        "allowJs": true,
+        "declaration": false,
+        "removeComments": true,
+        "sourceMap": true,
+        "noLib": false,
+        "outDir": "server"
+    },
+    "exclude": [
+        "node_modules",
+        "typings/**/*.d.ts"
+    ],
+    "filesGlob": [
+        "src/app.js",
+        "src/*.ts",
+        "typings/index.d.ts"
+    ],
+    "files": [
+        "src/app.ts",
+        "src/config.ts",
+        "typings/index.d.ts"
+    ]
+}
